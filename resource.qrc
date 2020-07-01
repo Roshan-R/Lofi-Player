@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/new/prefix1">
-        <file>lofi.jpeg</file>
+    <qresource prefix="/img">
+        <file>background.png</file>
     </qresource>
 </RCC>

@@ -17,9 +17,8 @@ lofi::~lofi()
 }
 
 
-void lofi::on_playButton_clicked()
+void lofi::on_Button_clicked()
 {
-    lofi::playAudio();
 }
 
 void lofi::on_volumeSlider_sliderMoved(int position)
@@ -27,7 +26,18 @@ void lofi::on_volumeSlider_sliderMoved(int position)
    lofi::changeVolume(ui->volumeSlider->value());
 }
 
-void lofi::on_pushButton_clicked()
+
+void lofi::on_Button_pressed()
 {
-    lofi::pauseAudio();
+
+    if(!lofi::playStatus()) {
+        lofi::setPlaying();
+        ui->Button->setText("Pause");
+        lofi::playAudio();
+    }
+    else{
+       lofi::setPause();
+       ui->Button->setText("Play");
+       lofi::pauseAudio();
+    }
 }
