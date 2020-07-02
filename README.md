@@ -1,8 +1,8 @@
 # Lofi-Player
 A lofi audio player made using Qt
 
-It uses the 24/7 youtube stream by the channel ChillCow.
+It uses the online radio by https://laut.fm/lofi.
 
-[link to the YouTube stream](https://www.youtube.com/watch?v=5qap5aO4i9A)
+[link to the radio](https://laut.fm/lofi)
 
 all credits goes to them.
