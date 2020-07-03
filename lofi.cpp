@@ -32,12 +32,10 @@ void lofi::on_Button_pressed()
 
     if(!lofi::playStatus()) {
         lofi::setPlaying();
-        ui->Button->setText("Pause");
         lofi::playAudio();
     }
     else{
        lofi::setPause();
-       ui->Button->setText("Play");
        lofi::pauseAudio();
     }
 }
