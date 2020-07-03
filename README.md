@@ -8,4 +8,4 @@ It uses the online radio by https://laut.fm/lofi.
 all credits goes to them.
 
 # ScreenShot
-![ScreenShot](img/screenshot.jpg)
+![Screenshot](https://github.com/Roshan-R/Lofi-Player/blob/master/imgs/Screenshot.jpeg)
