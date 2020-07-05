@@ -310,7 +310,7 @@ border-radius: 4px;
       </font>
      </property>
      <property name="text">
-      <string>laut.fm/lofi</string>
+      <string>Planet Lofi</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -339,6 +339,32 @@ border-radius: 4px;
     <zorder>FMlabel</zorder>
     <zorder>Playinglabel</zorder>
     <zorder>label</zorder>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>440</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Next </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>440</y>
+      <width>80</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Previous</string>
+    </property>
    </widget>
   </widget>
  </widget>
