@@ -1,5 +1,5 @@
 # Lofi-Player :headphones:
-An Audio player which plays internet radio streams featuring lofi music made using qt5.
+A light weight music player which plays internet radio streams featuring lofi music made using qt5.
 
 
 ## How it Works
