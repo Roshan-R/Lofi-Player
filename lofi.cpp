@@ -8,6 +8,7 @@ lofi::lofi(QWidget *parent)
 {
     ui->setupUi(this);
     ui->volumeSlider->setValue(100);
+    lofi::setStreams();
     lofi::setAudio();
 }
 
@@ -38,4 +39,16 @@ void lofi::on_Button_pressed()
        lofi::setPause();
        lofi::pauseAudio();
     }
+}
+
+void lofi::on_pushButton_pressed()
+{
+   lofi::nextStation();
+   ui->FMlabel->setText(lofi::getStationName());
+}
+
+void lofi::on_pushButton_2_pressed()
+{
+   lofi::previousStation();
+   ui->FMlabel->setText(lofi::getStationName());
 }
