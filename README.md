@@ -21,7 +21,7 @@ The streams used are -
 |KauteMusik FM Study | http://de-hz-fal-stream07.rautemusik.fm/study |
 
 ## ScreenShots
-![Screenshot](https://github.com/Roshan-R/Lofi-Player/blob/master/imgs/Screenshot.jpeg)
+![Screenshot](https://raw.githubusercontent.com/Roshan-R/Lofi-Player/tracks/imgs/screenshot.png)
 
 ## Installation
 
