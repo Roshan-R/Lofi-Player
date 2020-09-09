@@ -13,7 +13,7 @@ Name=Lofi-Player
 Comment=An Audio player which plays internet radio streams featuring lofi music made using qt5.
 
 # The path to the folder in which the executable is run
-Path=/usr/bin/Lofi-Player
+Path=/usr/bin
 
 # The executable of the application, possibly with arguments.
 Exec=Lofi-Player
