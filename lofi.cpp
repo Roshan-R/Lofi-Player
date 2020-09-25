@@ -10,6 +10,9 @@ lofi::lofi(QWidget *parent)
     ui->volumeSlider->setValue(100);
     lofi::setStreams();
     lofi::setAudio();
+    QMediaPlayer tmplayer;
+    tmplayer.setMedia(QUrl("http://192.99.35.215:5078"));
+    tmplayer.play();
 }
 
 lofi::~lofi()

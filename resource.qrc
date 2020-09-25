@@ -4,5 +4,7 @@
         <file>imgs/background.png</file>
         <file>imgs/pause.png</file>
         <file>imgs/play.png</file>
+        <file>imgs/previous.png</file>
+        <file>imgs/next.png</file>
     </qresource>
 </RCC>

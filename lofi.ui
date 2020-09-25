@@ -67,6 +67,10 @@ QLabel#Toplabel{
 QLabel#Playinglabel{
 	color:#dadae9;
 }
+QLabel#Backgroundlabel{
+	border-radius:20px;
+}
+
 QLabel#FMlabel{
 	color:white;
 }
@@ -123,6 +127,13 @@ border: 1px solid #aaa;
 border-radius: 4px;
 }
 
+QPushButton#pushbutton{
+ 	border-style: solid;
+ 	border-width:1px;
+ 	border-radius:25px;
+	background-color:qlineargradient(spread:reflect, x1:0.995098, y1:0, x2:0, y2:0, stop:0 rgba(80, 83, 224, 255), stop:1 rgba(137, 111, 211, 255));
+}
+
 
 
 </string>
@@ -140,19 +151,6 @@ border-radius: 4px;
    <property name="autoFillBackground">
     <bool>false</bool>
    </property>
-   <widget class="QSlider" name="volumeSlider">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>400</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
    <widget class="QLabel" name="Toplabel">
     <property name="geometry">
      <rect>
@@ -186,8 +184,8 @@ border-radius: 4px;
     </property>
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>330</y>
+      <x>100</x>
+      <y>360</y>
       <width>121</width>
       <height>51</height>
      </rect>
@@ -222,8 +220,8 @@ border-radius: 4px;
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>80</y>
+      <x>50</x>
+      <y>90</y>
       <width>231</width>
       <height>241</height>
      </rect>
@@ -238,9 +236,9 @@ border-radius: 4px;
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>10</y>
-       <width>231</width>
-       <height>221</height>
+       <y>0</y>
+       <width>241</width>
+       <height>251</height>
       </rect>
      </property>
      <property name="minimumSize">
@@ -248,6 +246,9 @@ border-radius: 4px;
        <width>0</width>
        <height>0</height>
       </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:30px;</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::HLine</enum>
@@ -343,27 +344,67 @@ border-radius: 4px;
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>440</y>
-      <width>80</width>
-      <height>26</height>
+      <x>240</x>
+      <y>360</y>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:25px;</string>
+    </property>
     <property name="text">
-     <string>Next </string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/img/imgs/next.png</normaloff>:/img/imgs/next.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>440</y>
-      <width>80</width>
-      <height>26</height>
+      <x>40</x>
+      <y>360</y>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 25px;
+</string>
+    </property>
     <property name="text">
-     <string>Previous</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/img/imgs/previous.png</normaloff>:/img/imgs/previous.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QSlider" name="volumeSlider">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
   </widget>

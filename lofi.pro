@@ -35,3 +35,5 @@ RESOURCES += \
 
 DISTFILES += \
     README.md
+
+ANDROID_ABIS = arm64-v8a x86
