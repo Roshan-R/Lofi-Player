@@ -3,7 +3,7 @@ A light weight music player which plays internet radio streams featuring lofi mu
 
 
 ## ScreenShots
-![Screenshot](https://raw.githubusercontent.com/Roshan-R/Lofi-Player/tracks/imgs/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/Roshan-R/Lofi-Player/master/imgs/screenshot.png)
 
 ## Installation
 ### Arch PKGBUILD
