@@ -1,12 +1,20 @@
 #include "lofi.h"
 #include "ui_lofi.h"
 #include <QMediaPlayer>
-
+#include <QFile>
+#include <QDebug>
+#include <QFontDatabase>
 lofi::lofi(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::lofi)
 {
     ui->setupUi(this);
+
+    int loadedFontID = QFontDatabase::addApplicationFont ( ":/fonts/BebasNeue.ttf" );
+    qInfo()<<loadedFontID;
+    QFont Bebas("BebasNeue", 40, QFont::Bold);
+    ui->Toplabel->setFont(Bebas);
+
     ui->volumeSlider->setValue(100);
     lofi::setStreams();
     lofi::setAudio();

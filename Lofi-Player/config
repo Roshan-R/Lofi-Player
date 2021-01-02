@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = git://github.com/Roshan-R/Lofi-Player
+	fetch = +refs/*:refs/*
+	mirror = true

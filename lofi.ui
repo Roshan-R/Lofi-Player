@@ -155,7 +155,7 @@ QPushButton#pushbutton{
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>10</y>
+      <y>30</y>
       <width>331</width>
       <height>61</height>
      </rect>
@@ -163,7 +163,7 @@ QPushButton#pushbutton{
     <property name="font">
      <font>
       <family>Bebas Neue</family>
-      <pointsize>36</pointsize>
+      <pointsize>35</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
